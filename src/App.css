@@ -1,3 +1,48 @@
+/*@import "react-vis-styles";*/
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #EEEEEE;
+  padding: 3vw 0px;
+  margin-top: 10vh;
+}
+
+p {
+  text-align: center;
+}
+
+.navbar {
+  width: 100%; 
+  background-color: #ffffff;
+  height: 10vh;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-wrapper-1 {
+  display: flex; 
+  justify-content: space-around;
+  margin-bottom: 5vh;
+}
+
+.stat-box {
+  background-color: #FFFFFF;
+  width: 40vw;
+}
+
+.chart {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  margin-bottom: 5vh;
+}
+
 .App {
   text-align: center;
 }
